@@ -3,5 +3,9 @@
     "SweetScannerDescription": "SweetScanner ist eine App, die dir einen Überblick über deine Lebensmittel verschafft. Du scannst einfach den Barcode des Produktes und speicherst es in der Datenbank ab. Und genau einen Monat bevor das Produkt abläuft, erhälst du eine Benachrichtigung, die dich daran erinnert, dass du das Produkt isst, bevor du es in den Müll schmeißt!",
     "DownloadAvailableInFuture": "Download bald verfügbar",
     "HTMLEmailsDescription": "Mit HTMLEmails kannst du wunderbar schön designte E-Mails versenden und natürlich auch deine neuesten E-Mails empfangen und lesen. Eigentlich ist HTMLEmails ein einfaches E-Mail-Programm mit HTML-Unterstützung basierend auf <a href='https://electron.atom.io'>Electron</a>. Dank Electron kann HTMLEmails unter Windows, macOS und Linux laufen. (Currently only in German)"
+  },
+  "nav": {
+    "ProjectsTitle": " Projekte",
+    "Menu": "Menü"
   }
 }

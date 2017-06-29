@@ -23,6 +23,8 @@ $(document).ready(function() {
 		  parseDefaultValueFromContent: true
 		});
 		$('#content').localize();
+		$('nav').localize();
+		$('#SideMenu').localize();
 	});
 
 });
