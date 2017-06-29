@@ -2,7 +2,7 @@
   "projects": {
     "SweetScannerDescription": "SweetScanner is an application to get an overview of all of your foods. You simply scan the barcode of a product and save it in the database. And exactly one month before the product expires, you will get a notification which reminds you to eat it before you throw it in the trash!",
     "DownloadAvailableInFuture": "Download available in the future",
-    "HTMLEmailsDescription": "With HTMLEmails you can send beautiful designed E-Mails and also read your latest E-Mails. Basically it is an E-Mail-Client with HTML support based on <a href='https://electron.atom.io'>Electron Framework</a>. Thanks to Electron HTMLEmails can be used with Windows, macOS or Linux (Currently only in German)"
+    "HTMLEmailsDescription": "With HTMLEmails you can send beautiful designed E-Mails and also read your latest E-Mails. Basically it is an E-Mail-Client with HTML support based on <a href='https://electron.atom.io'>Electron Framework</a>. Thanks to Electron HTMLEmails can be used with Windows, macOS or Linux."
   },
   "nav": {
     "ProjectsTitle": " Projects",
