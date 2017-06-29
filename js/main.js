@@ -7,7 +7,6 @@ $(document).ready(function() {
 	});
 
 	i18next.use(window.i18nextBrowserLanguageDetector).use(window.i18nextXHRBackend).init({
-		debug: true,
 			backend: {
           loadPath: './locales/{{lng}}/translation.json'
       }
