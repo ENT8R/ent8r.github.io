@@ -2,7 +2,7 @@ $(document).ready(function() {
   $(".open-menu-trigger").sideNav();
   $("#content").load('./projects.html');
 
-  $(".projets-link").click(function() {
+  $(".projects-link").click(function() {
     $("#content").load('./projects.html');
   });
 
@@ -23,7 +23,7 @@ $(document).ready(function() {
     });
     $('#content').localize();
     $('nav').localize();
-    $('#SideMenu').localize();
+    $('#side-menu').localize();
   });
 
 });
