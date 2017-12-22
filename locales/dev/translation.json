@@ -1,0 +1,17 @@
+{
+  "projects": {
+    "sweet_scanner": "SweetScanner is an application to get an overview of all of your foods. You simply scan the barcode of a product and save it in the database. And exactly one month before the product expires, you will get a notification which reminds you to eat it before you throw it in the trash!",
+    "download_future": "Download available in the future",
+    "html_emails": "With HTMLEmails you can send beautiful designed E-Mails and also read your latest E-Mails. Basically it is an E-Mail-Client with HTML support based on <a href='https://electron.atom.io'>Electron Framework</a>. Thanks to Electron HTMLEmails can be used with Windows, macOS or Linux.",
+    "visit_website": "Visit website",
+    "visit_github": "View on Github",
+    "street_complete": {
+      "quest_creator": "The StreetComplete QuestCreator is a tool for creating new quests for the android application <a href='https://github.com/westnordost/StreetComplete'>StreetComplete</a>",
+      "complete_street_complete": "CompleteStreetComplete is a website with a simple API for helping to complete StreetComplete"
+    }
+  },
+  "nav": {
+    "projects": " Projects",
+    "menu": "Menu"
+  }
+}
