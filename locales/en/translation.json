@@ -8,7 +8,9 @@
     "street_complete": {
       "quest_creator": "The StreetComplete QuestCreator is a tool for creating new quests for the android application <a href='https://github.com/westnordost/StreetComplete'>StreetComplete</a>",
       "complete_street_complete": "CompleteStreetComplete is a website with a simple API for helping to complete StreetComplete"
-    }
+    },
+    "notes_review": "With NotesReview you can easily search through OSM Notes with a specific keyword. It allows to display up to 10000 notes either on a map or in a list.",
+    "microtasks": "OSM MicroTasks is a website for performing small tasks to improve the OpenStreetMap. You can e.g. bring wrong formatted phone numbers into the wanted, international format (E.164) easily."
   },
   "nav": {
     "projects": " Projects",
