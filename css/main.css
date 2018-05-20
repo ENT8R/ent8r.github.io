@@ -8,6 +8,10 @@
   }
 }
 
+.table-of-contents a.active {
+  border-left-color: #3f51b5;
+}
+
 .icon {
   display: inline-block;
   vertical-align: middle;

@@ -4,6 +4,7 @@
   "description": "Website to show some of my projects",
   "main": "index.html",
   "scripts": {
+    "start": "python -m SimpleHTTPServer 8000",
     "test": "eslint **/**.js"
   },
   "repository": {

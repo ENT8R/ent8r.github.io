@@ -34,42 +34,65 @@
 			</div>
 		</nav>
 
-		<ul id="side-menu" class="sidenav sidenav-fixed">
-			<li>
-				<div class="user-view">
-					<div class="background orange lighten-1">
-						<img src="images/office.jpg">
+		<div class="row">
+	    <div class="col s12 m9 l10">
+
+				<ul id="side-menu" class="sidenav sidenav-fixed">
+					<li>
+						<div class="user-view">
+							<div class="background orange lighten-1">
+								<img src="images/office.jpg">
+							</div>
+							<img class="circle" src="icon/logo.png">
+							<span class="white-text name"><span class="icon icon-account"></span>ENT8R</span>
+							<a href="mailto:info.ent8r@gmail.com" rel="noopener"><span class="white-text email"><span class="icon icon-email"></span>info.ent8r@gmail.com</span></a>
+						</div>
+					</li>
+
+					<li class="active"><a href="#" rel="noopener"><span class="icon icon-code"></span><span data-i18n="nav.projects"></span></a></li>
+
+					<li>
+						<div class="divider"></div>
+					</li>
+
+					<li><a class="subheader">More</a></li>
+					<li><a href="mailto:info.ent8r@gmail.com" rel="noopener"><span class="icon icon-email"></span><span data-i18n="nav.email"></span></a></li>
+					<li><a href="https://github.com/ent8r" target="_blank" rel="noopener"><span class="icon icon-github"></span><span data-i18n="nav.github"></span></a></li>
+				</ul>
+
+				<div id="content">
+					<div id="web" class="row section scrollspy">
+						<h3 class="center">Web</h3>
 					</div>
-					<img class="circle" src="icon/logo.png">
-					<span class="white-text name"><span class="icon icon-account"></span>ENT8R</span>
-					<a href="mailto:info.ent8r@gmail.com" rel="noopener"><span class="white-text email"><span class="icon icon-email"></span>info.ent8r@gmail.com</span></a>
+
+					<div id="electron" class="row section scrollspy">
+						<h3 class="center">Electron</h3>
+					</div>
+
+					<div id="nodejs" class="row section scrollspy">
+						<h3 class="center">NodeJS</h3>
+					</div>
+
+					<div id="other" class="row section scrollspy">
+						<h3 class="center">Other</h3>
+					</div>
+
+					<div id="android" class="row section scrollspy">
+						<h3 class="center">Android</h3>
+					</div>
 				</div>
-			</li>
 
-			<li class="active"><a href="#" rel="noopener"><span class="icon icon-code"></span><span data-i18n="nav.projects"></span></a></li>
-
-			<li>
-				<div class="divider"></div>
-			</li>
-
-			<li><a class="subheader">More</a></li>
-			<li><a href="mailto:info.ent8r@gmail.com" rel="noopener"><span class="icon icon-email"></span><span data-i18n="nav.email"></span></a></li>
-			<li><a href="https://github.com/ent8r" target="_blank" rel="noopener"><span class="icon icon-github"></span><span data-i18n="nav.github"></span></a></li>
-		</ul>
-
-		<div id="content">
-			<div id="web" class="row">
-				<h3 class="center">Web</h3>
-			</div>
-
-			<div id="electron" class="row">
-				<h3 class="center">Electron</h3>
-			</div>
-
-			<div id="android" class="row">
-				<h3 class="center">Android</h3>
-			</div>
-		</div>
+	    </div>
+	    <div class="col hide-on-small-only m3 l2">
+	      <ul class="section table-of-contents pinned">
+	        <li><a class="active" href="#web">Web</a></li>
+	        <li><a href="#electron">Electron</a></li>
+	        <li><a href="#nodejs">NodeJS</a></li>
+					<li><a href="#other">Other</a></li>
+					<li><a href="#android">Android</a></li>
+	      </ul>
+	    </div>
+	  </div>
 
 	</main>
 

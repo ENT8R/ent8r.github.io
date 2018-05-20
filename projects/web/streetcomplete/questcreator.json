@@ -4,11 +4,11 @@
   "description": "[html]projects.street_complete.quest_creator",
   "links": [
     {
-      "content": "projects.visit_website",
+      "content": "actions.visit_website",
       "href": "https://ent8r.github.io/StreetCompleteQuestCreator/"
     },
     {
-      "content": "projects.visit_github",
+      "content": "actions.visit_github",
       "href": "https://github.com/ENT8R/StreetCompleteQuestCreator/"
     }
   ]

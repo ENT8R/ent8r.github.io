@@ -1,8 +1,9 @@
 /* globals M */
 
-document.addEventListener('DOMContentLoaded', () => {
-  const sideNav = document.querySelectorAll('.sidenav');
-  M.Sidenav.init(sideNav);
+M.Sidenav.init(document.querySelectorAll('.sidenav'));
+M.ScrollSpy.init(document.querySelectorAll('.scrollspy'), {
+  throttle: 50,
+  scrollOffset: 100
 });
 
 const Projects = (() => {
@@ -20,20 +21,24 @@ const Projects = (() => {
 
   function generate(json) {
     const links = generateLinks(json.links);
-    const template = `
+    let template = `
     <div class="col s12 m6 l4">
-      <div class="card hoverable">
-        <div class="card-image">
-          <img src="${json.image}"></img>
-        </div>
-        <div class="card-content">
-          <span class="card-title activator orange-text text-lighten-1">${json.name}</span>
-          <p data-i18n="${json.description}"></p>
-        </div>
-        <div class="card-action">
-          ${links}
-        </div>
+      <div class="card hoverable">`;
+    if (json.image) {
+      template += `
+      <div class="card-image">
+        <img src="${json.image}"></img>
+      </div>`;
+    }
+    template += `
+      <div class="card-content">
+        <span class="card-title activator orange-text text-lighten-1">${json.name}</span>
+        <p data-i18n="${json.description}"></p>
       </div>
+      <div class="card-action">
+        ${links}
+      </div>
+    </div>
     </div>`;
     return template;
   }

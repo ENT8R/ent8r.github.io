@@ -1,0 +1,14 @@
+{
+  "name": "wifiradio 📻",
+  "description": "[html]projects.wifiradio",
+  "links": [
+    {
+      "content": "actions.visit_npm",
+      "href": "https://www.npmjs.com/package/wifiradio/"
+    },
+    {
+      "content": "actions.visit_github",
+      "href": "https://github.com/ENT8R/wifiradio/"
+    }
+  ]
+}

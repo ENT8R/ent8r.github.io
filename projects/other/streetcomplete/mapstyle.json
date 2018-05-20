@@ -1,0 +1,15 @@
+{
+  "name": "StreetComplete Mapstyle 🌎",
+  "image": "./images/streetcompletemapstyle.png",
+  "description": "[html]projects.street_complete.mapstyle",
+  "links": [
+    {
+      "content": "actions.show_map",
+      "href": "https://map-data.de/#style=streetcomplete-light"
+    },
+    {
+      "content": "actions.visit_github",
+      "href": "https://github.com/ENT8R/streetcomplete-mapstyle/"
+    }
+  ]
+}
