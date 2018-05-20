@@ -1,0 +1,22 @@
+{
+  "name": "ent8r.github.io",
+  "version": "1.0.0",
+  "description": "Website to show some of my projects",
+  "main": "index.html",
+  "scripts": {
+    "test": "eslint **/**.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ENT8R/ent8r.github.io.git"
+  },
+  "author": "ENT8R",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/ENT8R/ent8r.github.io/issues"
+  },
+  "homepage": "https://github.com/ENT8R/ent8r.github.io#readme",
+  "devDependencies": {
+    "eslint": "^4.19.1"
+  }
+}

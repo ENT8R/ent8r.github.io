@@ -1,0 +1,15 @@
+{
+  "name": "OSM MicroTasks",
+  "image": "./images/microtasks.png",
+  "description": "[html]projects.microtasks",
+  "links": [
+    {
+      "content": "projects.visit_website",
+      "href": "https://ent8r.github.io/osm-microtasks/"
+    },
+    {
+      "content": "projects.visit_github",
+      "href": "https://github.com/ENT8R/osm-microtasks/"
+    }
+  ]
+}

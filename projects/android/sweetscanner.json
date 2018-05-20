@@ -1,0 +1,10 @@
+{
+  "name": "SweetScanner",
+  "image": "./images/sweetscanner.png",
+  "description": "projects.sweet_scanner",
+  "links": [
+    {
+      "content": "projects.download_future"
+    }
+  ]
+}

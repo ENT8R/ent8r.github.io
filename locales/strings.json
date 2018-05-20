@@ -1,0 +1,45 @@
+{
+  "en": {
+    "nav": {
+      "projects": " Projects",
+      "github": "Github",
+      "email": "E-Mail"
+    },
+    "projects": {
+      "sweet_scanner": "SweetScanner is an application to get an overview of all of your foods. You simply scan the barcode of a product and save it in the database. And exactly one month before the product expires, you will get a notification which reminds you to eat it before you throw it in the trash!",
+      "download_future": "Download available in the future",
+      "html_emails": "With HTMLEmails you can send beautiful designed E-Mails and also read your latest E-Mails. Basically it is an E-Mail-Client with HTML support based on <a href='https://electron.atom.io'>Electron Framework</a>. Thanks to Electron HTMLEmails can be used with Windows, macOS or Linux.",
+      "visit_website": "Visit website",
+      "visit_github": "View on Github",
+      "street_complete": {
+        "quest_creator": "The StreetComplete QuestCreator is a tool for creating new quests for the android application <a href='https://github.com/westnordost/StreetComplete'>StreetComplete</a>",
+        "complete_street_complete": "CompleteStreetComplete is a website with a simple API for helping to complete StreetComplete"
+      },
+      "notes_review": "With NotesReview you can easily search through OSM Notes with a specific keyword. It allows to display up to 10000 notes either on a map or in a list.",
+      "microtasks": "OSM MicroTasks is a website for performing small tasks to improve the OpenStreetMap. You can e.g. bring wrong formatted phone numbers into the wanted, international format (E.164) easily.",
+      "blacklistr": "blacklistr is a tool for visualizing in which countries a specific feature exists or doesn't exist."
+    }
+  },
+
+  "de": {
+    "nav": {
+      "projects": " Projekte",
+      "github": "Github",
+      "email": "E-Mail"
+    },
+    "projects": {
+      "sweet_scanner": "SweetScanner ist eine App, die dir einen Überblick über deine Lebensmittel verschafft. Du scannst einfach den Barcode des Produktes und speicherst es in der Datenbank ab. Und genau einen Monat bevor das Produkt abläuft, erhälst du eine Benachrichtigung, die dich daran erinnert, dass du das Produkt isst, bevor du es in den Müll schmeißt!",
+      "download_future": "Download bald verfügbar",
+      "html_emails": "Mit HTMLEmails kannst du wunderbar schön designte E-Mails versenden und natürlich auch deine neuesten E-Mails empfangen und lesen. Eigentlich ist HTMLEmails ein einfaches E-Mail-Programm mit HTML-Unterstützung basierend auf <a href='https://electron.atom.io'>Electron</a>. Dank Electron kann HTMLEmails unter Windows, macOS und Linux laufen.",
+      "visit_website": "Website",
+      "visit_github": "Github",
+      "street_complete": {
+        "quest_creator": "Der StreetComplete QuestCreator ist ein Werkzeug, um neue Aufgaben zur Android-App <a href='https://github.com/westnordost/StreetComplete'>StreetComplete</a> hinzuzufügen.",
+        "complete_street_complete": "CompleteStreetComplete ist eine Website mit einer einfachen API, die helfen soll, <a href='https://github.com/westnordost/StreetComplete'>StreetComplete</a> zu verbessern."
+      },
+      "notes_review": "Mit NotesReview ist es total einfach, OSM Notizen nach bestimmten Schlüsselwörten zu durchsuchen. Es können bis zu 10000 Notizen auf einer Karte oder ganz einfach in einer Liste angezeigt werden.",
+      "microtasks": "OSM MicroTasks ist eine Website, mit der du kleine Aufgaben abzuschließen kannst, um die OpenStreetMap zu verbessern. Du kannst z.B. ganz einfach falsch formatierte Telefonnummern in das richtige, internationale Format (E.164) bringen.",
+      "blacklistr": "blacklistr ist ein Tool mit dem man sich ganz einfach einen Überblick verschaffen kann, wo bestimmte Dinge verfügbar oder nicht verfügbar sind."
+    }
+  }
+}

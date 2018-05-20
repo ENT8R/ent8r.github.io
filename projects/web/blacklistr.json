@@ -1,0 +1,15 @@
+{
+  "name": "blacklistr",
+  "image": "./images/blacklistr.png",
+  "description": "[html]projects.blacklistr",
+  "links": [
+    {
+      "content": "projects.visit_website",
+      "href": "https://ent8r.github.io/blacklistr/"
+    },
+    {
+      "content": "projects.visit_github",
+      "href": "https://github.com/ENT8R/blacklistr/"
+    }
+  ]
+}

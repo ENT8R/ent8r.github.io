@@ -1,0 +1,15 @@
+{
+  "name": "NotesReview",
+  "image": "./images/notesreview.png",
+  "description": "[html]projects.notes_review",
+  "links": [
+    {
+      "content": "projects.visit_website",
+      "href": "https://ent8r.github.io/NotesReview/"
+    },
+    {
+      "content": "projects.visit_github",
+      "href": "https://github.com/ENT8R/NotesReview/"
+    }
+  ]
+}

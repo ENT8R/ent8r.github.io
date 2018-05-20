@@ -1,0 +1,14 @@
+{
+  "android": [
+    "./projects/android/sweetscanner.json"
+  ],
+  "electron": [
+    "./projects/electron/htmlemails.json"
+  ],
+  "web": [
+    "./projects/web/notesreview.json",
+    "./projects/web/blacklistr.json",
+    "./projects/web/microtasks.json",
+    "./projects/web/streetcomplete/complete.json"
+  ]
+}
