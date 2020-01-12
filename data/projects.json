@@ -1,0 +1,57 @@
+[{
+  "title": "Web <i class=\"icon icon-html\"></i>",
+  "projects": [{
+    "title": "NotesReview",
+    "image": "images/projects/notesreview.png",
+    "description": "An intuitive tool for searching, finding, resolving or simply browsing OpenStreetMap notes created by other mappers. Various filter options allow to see only the notes you are currently interested in.",
+    "actions": {
+      "website": "https://ent8r.github.io/NotesReview",
+      "github": "ENT8R/NotesReview"
+    }
+  }, {
+    "title": "blacklistr",
+    "image": "images/projects/blacklistr.png",
+    "description": "Tool for visualizing in which countries certain features are either present or do not exist, legal or illegal and much more. You are also able to generate an image of the map so you can use it for other projects.",
+    "actions": {
+      "website": "https://ent8r.github.io/blacklistr",
+      "github": "ENT8R/blacklistr"
+    }
+  }]
+}, {
+  "title": "node.js <i class=\"icon icon-nodejs\"></i>",
+  "projects": [{
+    "title": "package-age",
+    "image": "images/projects/package-age.png",
+    "description": "Tired of manually checking whether there is a new version of your used npm dependencies? <code>package-age</code> checks all dependencies specified in the <code>package.json</code> file and tells you if there is a new version of a dependency.",
+    "actions": {
+      "github": "ENT8R/package-age",
+      "npm": "package-age"
+    }
+  }, {
+    "title": "wifiradio",
+    "emoji": "📻📡",
+    "description": "Library for controlling WiFi radios with a chip produced by Frontier Silicon. Supports only basic actions like switching the radio on or off, changing the volume, muting the radio or retrieving basic information.",
+    "actions": {
+      "github": "ENT8R/wifiradio",
+      "npm": "wifiradio"
+    }
+  }]
+}, {
+  "title": "Other",
+  "projects": [{
+    "title": "streetcomplete-mapstyle",
+    "image": "images/projects/streetcomplete-mapstyle.png",
+    "description": "The mapstyle used by <a href=\"https://github.com/westnordost/StreetComplete\">StreetComplete</a>. It is kept intentionally simple and does not display any POIs or other details, users are not distracted and it can be used as a background or basemap below data layers.",
+    "actions": {
+      "website": "https://ent8r.github.io/streetcomplete-mapstyle/",
+      "github": "ENT8R/streetcomplete-mapstyle"
+    }
+  }, {
+    "title": "oneway-data-api",
+    "emoji": "🚗⬅️",
+    "description": "API written in PHP to import the latest <a href=\"https://missingroads.skobbler.net/dumps/OneWays/\">oneway data</a> from <a href=\"https://improveosm.org/\">improveosm.org</a> into a MySQL database. The data can be retrieved by specifying a bounding box of all wanted results. Currently used by and <a href=\"https://github.com/westnordost/StreetComplete/issues/1022\">created for StreetComplete</a>.",
+    "actions": {
+      "github": "ENT8R/oneway-data-api"
+    }
+  }]
+}]

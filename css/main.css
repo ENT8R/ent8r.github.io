@@ -1,46 +1,30 @@
-#content {
-  padding-left: 300px;
-}
-
-@media only screen and (max-width : 992px) {
-  #content {
-    padding-left: 0;
-  }
-}
-
-.table-of-contents a.active {
-  border-left-color: #3f51b5;
+.emoji {
+  font-size: 100px;
 }
 
 .icon {
   display: inline-block;
   vertical-align: middle;
+  margin-bottom: 4px;
   width: 24px;
   height: 24px;
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-
-.icon-account {
-  background-image: url('../images/icons/account-circle.svg');
-}
-
-.icon-code {
-  background-image: url('../images/icons/code-tags.svg');
 }
 
 .icon-email {
-  background-image: url('../images/icons/email.svg');
+  background-image: url('../icons/email.svg');
 }
-
+.icon-external {
+  background-image: url('../icons/external.svg');
+}
 .icon-github {
-  background-image: url('../images/icons/github-circle.svg');
+  background-image: url('../icons/github.svg');
 }
-
-.icon-menu-white {
-  background-image: url('../images/icons/menu-white.svg');
+.icon-html {
+  background-image: url('../icons/html.svg');
 }
-
-.icon-open-in-new {
-  background-image: url('../images/icons/open-in-new.svg');
+.icon-nodejs {
+  background-image: url('../icons/nodejs.svg');
+}
+.icon-npm {
+  background-image: url('../icons/npm.svg');
 }

@@ -13,95 +13,45 @@
 								style-src 'self' https://unpkg.com;">
 	<meta charset="utf-8">
 
-	<link rel="shortcut icon" href="icon/favicon.png" type="image/x-icon">
-	<link rel="icon" href="icon/favicon.png" type="image/x-icon">
+	<link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+	<link rel="icon" href="images/logo.png" type="image/x-icon">
 
 	<link rel="stylesheet"
-				href="https://unpkg.com/materialize-css@1.0.0-rc.1/dist/css/materialize.min.css"
-				integrity="sha384-AGqYo0VYxBkWUfLYJujCtaohTG6DnXxnWgLZ2cROBb2Lpl/2ew9aA79ke3PWsZ+B"
-				crossorigin="anonymous" />
+				href="https://unpkg.com/spectre.css@0.5.8/dist/spectre.min.css"
+				integrity="sha384-k6VaK8SMn/Mpo78m3i6rYNBu5DlUY1ef2j/LBES5AloJ8J2OwFtKiC4R4dHHo6Qg"
+				crossorigin="anonymous">
 
 	<link rel="stylesheet" href="css/main.css">
 </head>
 
-<body>
+<body class="container">
+
+	<header class="navbar">
+	  <section class="navbar-section"></section>
+	  <section class="navbar-center">
+			<img height="48px" src="images/logo.png">
+	  </section>
+	  <section class="navbar-section">
+			<a href="mailto:info.ent8r@gmail.com" class="btn btn-primary mx-1"><i class="icon icon-email"></i> Email</a>
+	    <a href="https://github.com/ENT8R" class="btn mx-1"><i class="icon icon-github"></i> GitHub</a>
+	  </section>
+	</header>
 
 	<main>
-
-		<nav>
-			<div class="nav-wrapper indigo">
-				<a href="#" rel="noopener" data-target="side-menu" class="sidenav-trigger left"><span class="icon icon-menu-white"></span></a>
+		<div class="columns">
+	    <div class="column col-8 col-md-10 col-mx-auto">
+				<h1>Projects</h1>
+				<div id="projects"></div>
 			</div>
-		</nav>
-
-		<div class="row">
-	    <div class="col s12 m9 l10">
-
-				<ul id="side-menu" class="sidenav sidenav-fixed">
-					<li>
-						<div class="user-view">
-							<div class="background orange lighten-1">
-								<img src="images/office.jpg">
-							</div>
-							<img class="circle" src="icon/logo.png">
-							<span class="white-text name"><span class="icon icon-account"></span>ENT8R</span>
-							<a href="mailto:info.ent8r@gmail.com" rel="noopener"><span class="white-text email"><span class="icon icon-email"></span>info.ent8r@gmail.com</span></a>
-						</div>
-					</li>
-
-					<li class="active"><a href="#" rel="noopener"><span class="icon icon-code"></span><span data-i18n="nav.projects"></span></a></li>
-
-					<li>
-						<div class="divider"></div>
-					</li>
-
-					<li><a class="subheader">More</a></li>
-					<li><a href="mailto:info.ent8r@gmail.com" rel="noopener"><span class="icon icon-email"></span><span data-i18n="nav.email"></span></a></li>
-					<li><a href="https://github.com/ent8r" target="_blank" rel="noopener"><span class="icon icon-github"></span><span data-i18n="nav.github"></span></a></li>
-				</ul>
-
-				<div id="content">
-					<div id="web" class="row section scrollspy">
-						<h3 class="center">Web</h3>
-					</div>
-
-					<div id="electron" class="row section scrollspy">
-						<h3 class="center">Electron</h3>
-					</div>
-
-					<div id="nodejs" class="row section scrollspy">
-						<h3 class="center">NodeJS</h3>
-					</div>
-
-					<div id="other" class="row section scrollspy">
-						<h3 class="center">Other</h3>
-					</div>
-
-					<div id="android" class="row section scrollspy">
-						<h3 class="center">Android</h3>
-					</div>
-				</div>
-
-	    </div>
-	    <div class="col hide-on-small-only m3 l2">
-	      <ul class="section table-of-contents pinned">
-	        <li><a class="active" href="#web">Web</a></li>
-	        <li><a href="#electron">Electron</a></li>
-	        <li><a href="#nodejs">NodeJS</a></li>
-					<li><a href="#other">Other</a></li>
-					<li><a href="#android">Android</a></li>
-	      </ul>
-	    </div>
 	  </div>
-
 	</main>
 
-	<script type="text/javascript"
-					src="https://unpkg.com/materialize-css@1.0.0-rc.1/dist/js/materialize.min.js"
-					integrity="sha384-pMak5+EFfsXWhPkiRrLAdhYX5c4fOuW5RWyV4QTXlQ3WNpkZSuC/Nl3XaE3Syh1+"
-					crossorigin="anonymous"></script>
-
-	<script type="text/javascript" src="js/main.js"></script>
 </body>
+
+<script src="https://unpkg.com/mustache@3.2.1/mustache.js"
+				integrity="sha384-lsPDyNrouIXTZQC+kn1+0nrTKShEY4OS2zzTWgP7xhlFVXPK5Y6O6DAu1dfqAMxA"
+				crossorigin="anonymous"></script>
+
+<script type="text/javascript" src="js/main.js"></script>
 
 </html>

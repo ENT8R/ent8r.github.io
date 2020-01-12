@@ -1,0 +1,38 @@
+{{#.}}
+<div class="divider"></div>
+
+<h3>{{{title}}}</h3>
+
+<div class="columns">
+	{{#projects}}
+	<div class="column col-6 col-md-12 my-2">
+		<div class="card">
+			<div class="card-image">
+				{{#image}}<img src="{{image}}" class="img-responsive">{{/image}}
+				{{#emoji}}<p class="emoji text-center">{{emoji}}</p>{{/emoji}}
+			</div>
+			<div class="card-header">
+				<div class="card-title h5">{{title}}</div>
+				<div class="card-subtitle text-gray">{{subtitle}}</div>
+			</div>
+			<div class="card-body">
+				{{{description}}}
+			</div>
+			{{#actions}}
+			<div class="card-footer">
+				{{#actions.website}}
+				<a class="btn btn-primary my-1" href="{{actions.website}}"><i class="icon icon-external"></i> Visit website</a>
+				{{/actions.website}}
+				{{#actions.github}}
+				<a class="btn my-1" href="https://github.com/{{actions.github}}"><i class="icon icon-github"></i> View on Github</a>
+				{{/actions.github}}
+				{{#actions.npm}}
+				<a class="btn my-1" href="https://www.npmjs.com/package/{{actions.npm}}"><i class="icon icon-npm"></i> View on npm</a>
+				{{/actions.npm}}
+			</div>
+			{{/actions}}
+		</div>
+	</div>
+	{{/projects}}
+</div>
+{{/.}}
